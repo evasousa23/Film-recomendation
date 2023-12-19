@@ -1,13 +1,13 @@
 function generatePoem(event) {
-  event.preventDeFault();
+  event.preventDefault();
 
   new Typewriter("#poem", {
-    strings: ["Hello", "World"],
+    strings: "saudade",
     autoStart: true,
     delay: 1,
     cursor: "",
   });
-  poemElement.innerHTML = "saudade";
+
 }
 
 let poemFormElement = document.querySelector("#poem-generator");
