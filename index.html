@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Generator- Eva Sousa</title>
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,14 +21,14 @@
   <body>
     <div class="container">
       <header>
-        <h1>AI Portuguese Poem Generator</h1>
+        <h1>AI Film Recomendation 🎬</h1>
       </header>
       <main>
         <div class="form-container">
-          <form id="poem-generator">
+          <form id="film-generator">
             <input
               type="text"
-              placeholder="Enter the topic of a Portuguese poem"
+              placeholder="Enter the topic of a film categorie"
               autofocus
               required
               autocomplete="off"
@@ -33,9 +37,9 @@
             />
             <input type="submit" class="submit-button" />
           </form>
-          <div class="hint">i.e: Lisbon, Flower or Fado</div>
+          <div class="hint">i.e: Drama, Romance, Comedy</div>
            </div>
-          <div class="poem hidden" id="poem"></div>
+          <div class="film hidden" id="film"></div>
       </main>
     </div>
     <footer>
