@@ -14,7 +14,7 @@ function generateFilm(event) {
   let instructionsInput = document.querySelector("#user-instructions");
   let apiKey = "a3af3t89ob96e0f9a620e92909b7a4bf";
   let context =
-    "You are a AI incredible expert cinematic and love recomend films. You mission is to generate  a recomendation in basic HTML and separate each line with a <br />. Make sure to follow the user instructions. Include the title of the film in <h1> ";
+    "You are a AI incredible expert cinematic and love recomend films. You mission is to generate  recomendations with a description about the film. Make sure to follow the user instructions. Include the film title in <h1> ";
   let prompt = `User instructions:Generate a film recomendations about ${instructionsInput.value}`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
