@@ -20,20 +20,22 @@
         <h1>AI Portuguese Poem Generator</h1>
       </header>
       <main>
-        <form id="poem-generator">
-          <input
-            type="text"
-            placeholder="Enter the topic of the Portuguese poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator">
+            <input
+              type="text"
+              placeholder="Enter the topic of a Portuguese poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Lisbon, Flower or Fado</div>
+           </div>
+          <div class="poem hidden" id="poem"></div>
       </main>
     </div>
     <footer>

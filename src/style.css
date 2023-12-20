@@ -17,14 +17,15 @@ h1 {
   color: #272044;
 }
 
-main {
-}
-form {
-  padding: 30px;
+.form-container{
+    margin-bottom: 30px;
+    padding: 30px;
   background-color: wheat;
   border-radius: 10px;
+}
+
+form {
   display: flex;
-  margin-bottom: 30px;
 }
 .instructions {
   padding: 16px;
@@ -35,6 +36,12 @@ form {
   border-radius: 56px;
   line-height: 20px;
   color: #272044;
+}
+.hint{
+  line-height: 1.5;
+  font-size: 12px;
+  margin-top: 10px;
+  opacity: 0.6;
 }
 .submit-button {
   margin-left: 10px;
@@ -56,6 +63,9 @@ form {
   border-radius: 10px;
 }
 
+.hidden{
+  display: none;
+}
 footer {
   text-align: center;
   font-size: 11px;
